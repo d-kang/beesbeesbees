@@ -1,6 +1,5 @@
 var RetiredForagerBee = function() {
-  Grub.call(this); // inherits props from Grub;
-  ForagerBee.call(this); // inherits props from foragerBee;
+  ForagerBee.call(this); // inherits props from ForagerBee;
   this.age = 40;
   this.job = 'gamble';
   this.canFly = false;
